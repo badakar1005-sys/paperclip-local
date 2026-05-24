@@ -5,43 +5,33 @@ node_modules/
 # Build artifacts
 dist/
 build/
-target/
+*.js.map
+*.ts.map
 
-# Python
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python artifacts (if any Python projects exist)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.env
-.env.local
-.env.*
-.env.local.*
 
-# Logs
-*.log
-
-# Coverage
-.coverage
+# Coverage reports
 coverage/
 htmlcov/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Testing
-.mypy_cache/
-.pytest_cache/
 ```
